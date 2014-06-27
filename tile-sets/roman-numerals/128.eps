@@ -1,0 +1,20 @@
+%!PS-Adobe-2.0 EPSF-2.0
+%%Title: (Font con acentos)
+%%Creator: ggem
+%%Creation Date: (09/17/2009) (2:12 PM)
+%%BoundingBox: 0 0 144 144
+%%EndComments
+
+/Times-Roman findfont 32 scalefont setfont
+
+/mychar (cxxvii) def
+
+gsave
+newpath
+0 0 moveto
+mychar false charpath flattenpath pathbbox
+grestore
+
+2 div 72 exch sub exch 2 div 72 exch sub exch moveto mychar show
+
+%%EndFile
